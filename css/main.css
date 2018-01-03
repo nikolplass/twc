@@ -1,0 +1,56 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: 'Nunito Sans', sans-serif;
+}
+
+.sticky-top {box-shadow: 
+	0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.bg-light {background-color: #FFFFFF!important;
+	}
+
+.nav-brand {
+	padding-right: 2rem;
+}
+section,
+footer {
+	padding: 20px 10px;
+}
+
+a,
+a:hover {
+	text-decoration: none;
+	color: #5ECAB7;
+}
+
+#services {
+	background-color: #A1A385;
+	padding: 10px 10px;
+}
+
+#aboutUs {
+	background-color: #92947E;
+}
+
+.card-deck {
+	margin-right: 10px;
+  margin-left: 10px;
+}
+
+#aboutUs h5 {
+	font-size: 1rem;
+	text-align: center;
+	font-weight: 600;
+}
+
+#newPatients {
+	background-color: #A1A385;
+}
+
+#contactUs {
+	background-color: #615E45;
+	color: #FFF;
+
+}

@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<!-- Character Set -->
+		<meta charset="utf-8">
+		
+		<!-- Creator of Website -->
+		<meta name="author" content="Nikol Plass">
+		<!-- Description of Website -->
+		<meta name="Description" content="Tiburon Wellness Center Website">
+		
+		<!-- @media queries -->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<!-- Title -->
+		<title>Tiburon Wellness Website Replication</title>
+
+		<!-- Favorite Icon
+		<link rel="shortcut icon" href="img/favicon.ico"> -->
+
+		<!-- Font Awesome CSS - Icons
+		<script src="https://use.fontawesome.com/9a77ea3aef.js"></script>-->
+		
+		<!-- link to Google fonts -->
+		<link href="https://fonts.googleapis.com/css?family=Nunito+Sans:400,600" rel="stylesheet">
+		<!-- Link to Boostrap 4 CSS-->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+
+		<!-- Custom CSS -->
+		<link rel="stylesheet" href="css/main.css">
+	</head>
+	<!-- Content -->
+	<body>
+		<!-- Section 1 - Navbar-->
+		<div class="sticky-top">
+			<nav class="navbar navbar-expand-lg navbar-light bg-light">
+				<a class="navbar-brand" href="#"></a>
+				<img src="img/twc-logo3.png" width="300" height="100" alt="Tiburon Wellness Center Logo">
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+					<div class="navbar-nav">
+						<a class="nav-item nav-link active" href="#">About Us <span class="sr-only">(current)</span></a>
+						<a class="nav-item nav-link" href="#">Services</a>
+						<a class="nav-item nav-link" href="#">Practioners</a>
+						<a class="nav-item nav-link" href="#">New Patient Forms</a>
+						<a class="nav-item nav-link" href="#">Appointments</a>
+					</div>
+				</div>
+			</nav>
+		</div>
+<!-- Section 2 - Image Carousel-->
+		<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+			<ol class="carousel-indicators">
+				<li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+				<li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+				<li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+			</ol>
+			<div class="carousel-inner">
+				<div class="carousel-item active">
+					<img class="d-block w-100" src="img/813987126.jpg" alt="Chiropractic Treatment">
+				</div>
+				<div class="carousel-item">
+					<img class="d-block w-100" src="img/183377535.jpg" alt="Acupuncture">
+				</div>
+				<div class="carousel-item">
+					<img class="d-block w-100" src="img/676734988.jpg" alt="Massage">
+				</div>
+			</div>
+			<a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+				<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+				<span class="sr-only">Previous</span>
+			</a>
+			<a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+				<span class="carousel-control-next-icon" aria-hidden="true"></span>
+				<span class="sr-only">Next</span>
+			</a>
+		</div>
+
+<!-- Section 3 - Services-->
+		<section id="services">
+			<h2>Services</h2>
+			<div class="card-deck">
+  <div class="card">
+    <img class="card-img-top" src="img/91559747.jpg" alt="Acupuncture Treatment">
+    <div class="card-body">
+      <h5 class="card-title">Acupuncture</h5>
+      <p class="card-text">Acupuncture is based on a single premise: we experience symptoms because energy is not moving freely through our body. Translated to modern western terms, acupuncture treatment causes your body to release hormones that regulate its various systems and promote healing.</p>
+      <!-- <p class="card-text">Using needles as thin as the hair on your head, acupuncture is relatively painless and totally safe. Acupuncture is very effective in the treatment of a wide range of symptoms including joint or muscle pain, headaches, allergies, digestive complaints, stress and many other health issues.</p> -->
+      <!-- <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> -->
+    </div>
+  </div>
+  <div class="card">
+    <img class="card-img-top" src="img/698127146.jpg" alt="Card image cap">
+    <div class="card-body">
+      <h5 class="card-title">Chiropractic</h5>
+      <p class="card-text">Doctors of Chiropractic focus on the nerve system,(the brain and spinal cord) which manages the body's vast chemical interactions to ensure proper function. The brain sends messages through the spinal cord across a huge network of spinal nerves to deliver information to every cell, organ and system of the body.</p>
+      <!-- <p class="card-text">The art of chiropractic lies within the "adjustment"; the correction of the spinal and/or extremity misalignments; to remove interference to the spinal cord and the nerves that exit between the bones of the spine.</p> -->
+      <!-- <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> -->
+    </div>
+  </div>
+  <div class="card">
+    <img class="card-img-top" src="img/182365519.jpg" alt="Massage Hands">
+    <div class="card-body">
+      <h5 class="card-title">Massage Therapy</h5>
+      <p class="card-text">Our integrated massage is a fusion of eastern and western modalities such as Swedish, Deep Tissue, Sports, Orthopedic, Shiatsu, Reflexology, and Cranio Sacral Therapies.</p>
+			<!-- <p class="card-text">By increasing circulation and lymph flow in the body, toxins that deter the healing process are cleared from the body, allowing the muscles to relax. Our therapies help to hydrate the joints, and to restore their natural lubrication and normal biomechanics. By relaxing and lengthening muscles the body becomes more pliant, relieving pain, fatigue and stress.</p> -->
+     <!--  <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> -->
+    </div>
+  </div>
+</div>
+		</section>
+
+<!-- Section 4 - About/Welcome/Practioners-->
+		<section id="aboutUs"><h2>About Us</h2>
+			<div class="container">
+				<div class="row">
+					<div class="col">
+						<p>Whether you are coming to us with an acute or chronic condition, a desire to make a change in your lifestyle or simply in need of a relaxing massage; all of our practitioners are here ready to identify the cause of your health care issues and to treat the whole body and not only address symptoms. We empower you with knowledge so that you may gain a greater awareness and insight into your health.</p>
+					</div>
+				</div>
+			</div>
+			<div class="container">
+				<div class="row">
+					<div class="col-sm">
+						<img src="img/75x75.svg" alt="placeholder" class="rounded-0">
+						<h5>Gretchen Andreis, DC</h5>
+					</div>
+					<div class="col-sm">
+						<img src="img/75x75.svg" alt="placeholder" class="rounded-0">
+						<h5>Lori Bergeron, DC</h5>
+					</div>
+					<div class="col-sm">
+						<img src="img/75x75.svg" alt="placeholder" class="rounded-0">
+						<h5>Alicia Andreis Pflueger, DC</h5>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-sm">
+						<img src="img/75x75.svg" alt="placeholder" class="rounded-0">
+						<h5>Danny Geren, L.Ac, Dipl. OM</h5>
+					</div>
+					<div class="col-sm">
+						<img src="img/75x75.svg" alt="placeholder" class="rounded-0">
+						<h5>Honor Woodard, LMT</h5>
+					</div>
+					<div class="col-sm">
+						<img src="img/75x75.svg" alt="placeholder" class="rounded-0 mx-auto">
+						<h5>Dominic Quin-Harkin, CMT</h5>
+					</div>
+				</div>
+			</div>
+		</section>
+<!-- Section 5 - Forms-->
+		<section id="newPatients">
+			<h2>New Patients</h2>
+			<p>We welcome the opportunity to guide you in your quest for a healthier you. Simply click on the service you are interested in and you will find the forms to print and fill out prior to your first appointment.</p>
+			<ul class="list-unstyled">
+  <li class="media">
+    <img class="mr-3" src="img/64x64.svg" alt="Chiropractic Intake Form">
+    <div class="media-body">
+      <h5 class="mt-0 mb-1"><a href ="assets/CHIROPRACTICINTAKEFORM.pdf">Chiropractic Intake Form</a></h5>
+      Cras sit amet nibh libero, in gravida nulla. 
+    </div>
+  </li>
+  <li class="media my-4">
+    <img class="mr-3" src="img/64x64.svg" alt="Massage Therapy Intake Form">
+    <div class="media-body">
+      <h5 class="mt-0 mb-1"><a href="assets/MASSAGETHERAPYINTAKEFORMS.pdf">Massage Therapy Intake Form</a></h5>
+      Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio.
+    </div>
+  </li>
+</ul>
+		</section>
+<!-- Section 6 - Contact Us/Appointments-->
+		<footer id="contactUs">
+			<div class="container">
+				<div class="row">
+					<div class="col">
+						<iframe width="600" height="450" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJhVXHAYiEhYARk7YNVoFdj_I&key=AIzaSyBmCotMSgg9yDETA3RzmS7TvaXzGal5F28" allowfullscreen></iframe>
+					</div>
+					<div class="col">
+						<h2>Contact Us</h2>
+						<p>T: 415.435.7420<br>
+							F: 415.435.7424<br>
+							Email: <a href="hello@tiburonwellnesscenter.com">hello@tiburonwellnesscenter.com</a><br>
+							1640 Tiburon Boulevard<br>
+						Tiburon, CA 94920</p>
+					</div>
+				</div>
+			</div>
+		</footer>
+
+
+
+	<!-- Google Maps API Key-->
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBmAYTS_BDYep4sRFB-3_u29yruTegEQ8M&callback=initMap"
+    async defer></script>
+
+	<!-- jQuery Script - Gives access to the jQuery library -->
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+
+	<!-- Popper Script - required for bootstrap 4 JS functionality -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+
+	<!-- Bootstrap 4 Script - Makes bootstrap 4 JS work -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+
+	<!-- This connects my JS external file to the index.html -->
+	<script src="js/main.js"></script>
+	</body>
+</html>
