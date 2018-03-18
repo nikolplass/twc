@@ -41,11 +41,10 @@
 				</button>
 				<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
 					<div class="navbar-nav">
-						<a class="nav-item nav-link active" href="#">About Us <span class="sr-only">(current)</span></a>
-						<a class="nav-item nav-link" href="#">Services</a>
-						<a class="nav-item nav-link" href="#">Practioners</a>
-						<a class="nav-item nav-link" href="#">New Patient Forms</a>
-						<a class="nav-item nav-link" href="#">Appointments</a>
+						<a class="nav-item nav-link" href="#services">Services<span class="sr-only">(current)</span></a>
+						<a class="nav-item nav-link active" href="#aboutus">About Us</a>
+						<a class="nav-item nav-link" href="#newpatients">New Patients</a>
+						<a class="nav-item nav-link" href="#contactus">Appointments</a>
 					</div>
 				</div>
 			</nav>
@@ -82,38 +81,38 @@
 		<section id="services">
 			<h2>Services</h2>
 			<div class="card-deck">
-  <div class="card">
-    <img class="card-img-top" src="img/91559747.jpg" alt="Acupuncture Treatment">
-    <div class="card-body">
-      <h5 class="card-title">Acupuncture</h5>
-      <p class="card-text">Acupuncture is based on a single premise: we experience symptoms because energy is not moving freely through our body. Translated to modern western terms, acupuncture treatment causes your body to release hormones that regulate its various systems and promote healing.</p>
-      <!-- <p class="card-text">Using needles as thin as the hair on your head, acupuncture is relatively painless and totally safe. Acupuncture is very effective in the treatment of a wide range of symptoms including joint or muscle pain, headaches, allergies, digestive complaints, stress and many other health issues.</p> -->
-      <!-- <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> -->
-    </div>
-  </div>
-  <div class="card">
-    <img class="card-img-top" src="img/698127146.jpg" alt="Card image cap">
-    <div class="card-body">
-      <h5 class="card-title">Chiropractic</h5>
-      <p class="card-text">Doctors of Chiropractic focus on the nerve system,(the brain and spinal cord) which manages the body's vast chemical interactions to ensure proper function. The brain sends messages through the spinal cord across a huge network of spinal nerves to deliver information to every cell, organ and system of the body.</p>
-      <!-- <p class="card-text">The art of chiropractic lies within the "adjustment"; the correction of the spinal and/or extremity misalignments; to remove interference to the spinal cord and the nerves that exit between the bones of the spine.</p> -->
-      <!-- <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> -->
-    </div>
-  </div>
-  <div class="card">
-    <img class="card-img-top" src="img/182365519.jpg" alt="Massage Hands">
-    <div class="card-body">
-      <h5 class="card-title">Massage Therapy</h5>
-      <p class="card-text">Our integrated massage is a fusion of eastern and western modalities such as Swedish, Deep Tissue, Sports, Orthopedic, Shiatsu, Reflexology, and Cranio Sacral Therapies.</p>
+	<div class="card">
+		<img class="card-img-top" src="img/91559747.jpg" alt="Acupuncture Treatment">
+		<div class="card-body">
+			<h5 class="card-title">Acupuncture</h5>
+			<p class="card-text">Acupuncture is based on a single premise: we experience symptoms because energy is not moving freely through our body. Translated to modern western terms, acupuncture treatment causes your body to release hormones that regulate its various systems and promote healing.</p>
+			<!-- <p class="card-text">Using needles as thin as the hair on your head, acupuncture is relatively painless and totally safe. Acupuncture is very effective in the treatment of a wide range of symptoms including joint or muscle pain, headaches, allergies, digestive complaints, stress and many other health issues.</p> -->
+			<!-- <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> -->
+		</div>
+	</div>
+	<div class="card">
+		<img class="card-img-top" src="img/698127146.jpg" alt="Card image cap">
+		<div class="card-body">
+			<h5 class="card-title">Chiropractic</h5>
+			<p class="card-text">Doctors of Chiropractic focus on the nerve system,(the brain and spinal cord) which manages the body's vast chemical interactions to ensure proper function. The brain sends messages through the spinal cord across a huge network of spinal nerves to deliver information to every cell, organ and system of the body.</p>
+			<!-- <p class="card-text">The art of chiropractic lies within the "adjustment"; the correction of the spinal and/or extremity misalignments; to remove interference to the spinal cord and the nerves that exit between the bones of the spine.</p> -->
+			<!-- <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> -->
+		</div>
+	</div>
+	<div class="card">
+		<img class="card-img-top" src="img/182365519.jpg" alt="Massage Hands">
+		<div class="card-body">
+			<h5 class="card-title">Massage Therapy</h5>
+			<p class="card-text">Our integrated massage is a fusion of eastern and western modalities such as Swedish, Deep Tissue, Sports, Orthopedic, Shiatsu, Reflexology, and Cranio Sacral Therapies.</p>
 			<!-- <p class="card-text">By increasing circulation and lymph flow in the body, toxins that deter the healing process are cleared from the body, allowing the muscles to relax. Our therapies help to hydrate the joints, and to restore their natural lubrication and normal biomechanics. By relaxing and lengthening muscles the body becomes more pliant, relieving pain, fatigue and stress.</p> -->
-     <!--  <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> -->
-    </div>
-  </div>
+		 <!--  <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> -->
+		</div>
+	</div>
 </div>
 		</section>
 
-<!-- Section 4 - About/Welcome/Practioners-->
-		<section id="aboutUs"><h2>About Us</h2>
+<!-- Section 4 - About Us/Practioners-->
+		<section id="aboutus"><h2>About Us</h2>
 			<div class="container">
 				<div class="row">
 					<div class="col">
@@ -121,7 +120,30 @@
 					</div>
 				</div>
 			</div>
-			<div class="container">
+			<!-- Trigger the Modal -->
+<img id="myImg" src="img/dominic.png" alt="Dominic Quin-Harkin, CMT" width="300" height="200">
+
+<!-- The Modal -->
+<div id="myModal" class="modal">
+
+  <!-- The Close Button -->
+  <span class="close">&times;</span>
+
+  <!-- Modal Content (The Image) -->
+  <img class="modal-content" id="img01">
+
+  <!-- Modal Caption (Image Text) -->
+  <div id="caption">DOMINIC QUIN-HARKIN, CMT
+
+Certified and licensed in massage since 2008, Dominic is a San Rafael native and a well-balanced healer providing massage, energy balancing and life coaching in the SF Bay Area.  He combines physical and emotional, western and eastern, medical and spiritual.
+
+
+Before massage, his background includes being a 4-year college athlete (UC San Diego Men’s Water Polo), NYC-Trained in Dance (jazz, tap, ballet), and 8+ years of coaching (competitive swimming, water polo) from young ages to high school and college level. He has been practicing bio-energy balancing for 16 years, which focuses on psycho-somatic trauma release, clearing blocks and balancing chi. Dominic has been a lead therapist and trainer at Elements Massage in Greenbrae and has worked in spas in both  Park City and Deer Valley, UT, as well as  in celebrity gifting suites for the Sundance Film Festival and the Academy Awards.
+
+His customized massages operate under the motto “muscles should be coerced and not bullied.” His deep tissue is patient without being forceful and painful. Sessions include helping clients gain knowledge of stretch, warm-up, and workout routines.
+Being a “Gentle Giant”, Dominic caters to all types of clients ranging from Sports Injuries and Rehab to the stress-relief rejuvenation and pampering. Regardless of the modality used, the end result is feeling balanced and lighter, not the soreness commonly associated with deep massage. His featured modalities include Swedish, Deep Tissue, Sports Therapy, Myofascial Release, Craniosacral, Prenatal, Reflexology, Lymphatic, and Reiki and Chakra Balancing.</div>
+</div>
+			<!-- <div class="container">
 				<div class="row">
 					<div class="col-sm">
 						<img src="img/75x75.svg" alt="placeholder" class="rounded-0">
@@ -146,35 +168,35 @@
 						<h5>Honor Woodard, LMT</h5>
 					</div>
 					<div class="col-sm">
-						<img src="img/75x75.svg" alt="placeholder" class="rounded-0 mx-auto">
+						<img src="img/dominic.png" alt="placeholder" class="rounded-0 mx-auto" size="75px x 75px">
 						<h5>Dominic Quin-Harkin, CMT</h5>
 					</div>
 				</div>
 			</div>
-		</section>
-<!-- Section 5 - Forms-->
-		<section id="newPatients">
+		</section> -->
+<!-- Section 5 - New Patients/Forms-->
+		<section id="newpatients">
 			<h2>New Patients</h2>
 			<p>We welcome the opportunity to guide you in your quest for a healthier you. Simply click on the service you are interested in and you will find the forms to print and fill out prior to your first appointment.</p>
 			<ul class="list-unstyled">
-  <li class="media">
-    <img class="mr-3" src="img/64x64.svg" alt="Chiropractic Intake Form">
-    <div class="media-body">
-      <h5 class="mt-0 mb-1"><a href ="assets/CHIROPRACTICINTAKEFORM.pdf">Chiropractic Intake Form</a></h5>
-      Cras sit amet nibh libero, in gravida nulla. 
-    </div>
-  </li>
-  <li class="media my-4">
-    <img class="mr-3" src="img/64x64.svg" alt="Massage Therapy Intake Form">
-    <div class="media-body">
-      <h5 class="mt-0 mb-1"><a href="assets/MASSAGETHERAPYINTAKEFORMS.pdf">Massage Therapy Intake Form</a></h5>
-      Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio.
-    </div>
-  </li>
+	<li class="media">
+		<img class="mr-3" src="img/64x64.svg" alt="Chiropractic Intake Form">
+		<div class="media-body">
+			<h5 class="mt-0 mb-1"><a href ="assets/CHIROPRACTICINTAKEFORM.pdf">Chiropractic Intake Form</a></h5>
+			Cras sit amet nibh libero, in gravida nulla. 
+		</div>
+	</li>
+	<li class="media my-4">
+		<img class="mr-3" src="img/64x64.svg" alt="Massage Therapy Intake Form">
+		<div class="media-body">
+			<h5 class="mt-0 mb-1"><a href="assets/MASSAGETHERAPYINTAKEFORMS.pdf">Massage Therapy Intake Form</a></h5>
+			Please complete this form before your first appointment.
+		</div>
+	</li>
 </ul>
 		</section>
 <!-- Section 6 - Contact Us/Appointments-->
-		<footer id="contactUs">
+		<footer id="contactus">
 			<div class="container">
 				<div class="row">
 					<div class="col">
@@ -184,7 +206,7 @@
 						<h2>Contact Us</h2>
 						<p>T: 415.435.7420<br>
 							F: 415.435.7424<br>
-							Email: <a href="hello@tiburonwellnesscenter.com">hello@tiburonwellnesscenter.com</a><br>
+							Email: <a href="mailto:hello@tiburonwellnesscenter.com">hello@tiburonwellnesscenter.com</a><br>
 							1640 Tiburon Boulevard<br>
 						Tiburon, CA 94920</p>
 					</div>
@@ -196,7 +218,7 @@
 
 	<!-- Google Maps API Key-->
 	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBmAYTS_BDYep4sRFB-3_u29yruTegEQ8M&callback=initMap"
-    async defer></script>
+		async defer></script>
 
 	<!-- jQuery Script - Gives access to the jQuery library -->
 	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
